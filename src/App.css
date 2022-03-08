@@ -64,6 +64,7 @@ main {
   border-radius: 3px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .meme--text {
@@ -79,16 +80,9 @@ main {
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
-  text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
 .bottom {
@@ -97,4 +91,18 @@ main {
 
 .top {
   top: 0;
+}
+
+.myCont {
+  max-width: fit-content;
+}
+
+.footer {
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
